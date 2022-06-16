@@ -13,8 +13,23 @@ export default function Navbar() {
                     <Grid>
                         <Grid.Container gap={1}>
                             <Grid>
+                                <a className="nav-link" href="/">
+                                    Observ Tracker
+                                </a>
+                            </Grid>
+                            <Grid>
+                                <a className="nav-link" href="/track">
+                                    Wallet Tracker
+                                </a>
+                            </Grid>
+                            <Grid>
                                 <a className="nav-link" href="https://observbsc.com">
                                     Home
+                                </a>
+                            </Grid>
+                            <Grid>swap
+                                <a className="nav-link" href="https://observbsc.com/">
+                                    Swap
                                 </a>
                             </Grid>
                         </Grid.Container>
