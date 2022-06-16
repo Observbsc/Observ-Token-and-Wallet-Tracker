@@ -1,0 +1,14 @@
+@font-face { font-family: "Nunito"; src: url('../fonts/Nunito.ttf'); }
+@font-face { font-family: "Montserrat"; src: url('../fonts/Montserrat.ttf'); }
+@font-face { font-family: "Raleway"; src: url('../fonts/Raleway.ttf'); }
+
+body {
+    font-family: "Nunito" !important;
+}
+
+h3 {
+    letter-spacing: 1px;
+}
+p {
+    font-family: "Nunito";
+}

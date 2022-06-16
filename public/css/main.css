@@ -1,0 +1,138 @@
+.header {
+    padding-top: 90px;
+    padding-bottom: 50px;
+    background: -webkit-radial-gradient(0% 100%, ellipse cover, rgba(247, 0, 255, 0) 40%, rgba(153, 103, 23, 0) ), -webkit-linear-gradient(top, rgba(6, 38, 51, 0) 0%, rgba(161, 14, 206, 0) 100%), -webkit-linear-gradient(-45deg, #06051b 0%, #541f51 100%);
+}
+
+.tokenbtn {
+    position: relative;
+    overflow: hidden;
+    display: inline !important;
+}
+
+.tokenbtn.active:after {
+    position: absolute;
+    content: ' ';
+    width: 100%;
+    height: 1px;
+    bottom: 0px;
+    left: 0;
+    margin-left: -3px;
+    background: -webkit-linear-gradient(-45deg, #06051b 0%, #541f51 100%);
+}
+
+.text-primary {
+    color: #ffffff !important;
+}
+.text-success {
+    color: #62af66 !important;
+}
+.text-danger {
+    color: #f8716c !important;
+}
+.text-info {
+    color: #6bc6e1 !important;
+}
+.text-warning {
+    color: #f0ad4e !important;
+}
+
+.nav-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.nav-link {
+    color: white;
+    padding: 10px 0 10px 0;
+    margin-right: 10px;
+}
+
+.nav-link:hover {
+    border-bottom: solid 1px white;
+}
+
+@keyframes opacity-loader {
+    0%   { opacity: 0.4 }
+    100%  { opacity: 1 }
+}
+
+.text-loading {
+    background: -webkit-linear-gradient(-45deg, #06051b 0%, #541f51 100%);
+    border-radius: 1rem;
+    animation: opacity-loader 1s alternate infinite;
+}
+
+.text-loading.sm {
+    width: 100px;
+    height: 15.5px;
+    margin-bottom: 2px;
+}
+
+.text-loading.md {
+    width: 150px;
+    height: 20px;
+}
+
+.text-loading.lg {
+    width: 200px;
+    height: 20px;
+}
+
+.address-form {
+    width: 100% !important;
+}
+
+.custom-dropdown {
+    
+    color: var(--nextui-colors-light) !important;
+    padding: 10px 10px 10px 20px;
+    border: none !important;
+    background-color: transparent;
+}
+
+.custom-dropdown .dropdown-menu {
+    position: absolute;
+    z-index: 1000;
+    visibility: hidden;
+    left: 0;
+    top: 40px;
+    background-color: var(--nextui-colors-backgroundContrast);
+    min-width: 300px;
+    border-radius: .6rem;
+    box-shadow: 0 .125rem .25rem rgba(0,0,0,.375);
+    overflow: hidden
+}
+
+.custom-dropdown:hover .dropdown-menu {
+    visibility: visible;
+}
+
+.custom-dropdown .dropdown-menu .dropdown-item {
+    display: block;
+    color: var(--nextui-colors-text) !important;
+}
+
+.custom-dropdown .dropdown-menu .dropdown-item:hover {
+    color: white !important;
+    background-color: var(--nextui-colors-primary)
+}
+
+a.token {
+    display: block;
+    text-align:center;
+}
+
+@media(max-width: 991.98px) {
+    .hidden-mobile {
+        display: none;
+    }
+}
+
+.full-height {
+    height: 100vh;
+}
