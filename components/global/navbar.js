@@ -27,7 +27,7 @@ export default function Navbar() {
                                     Home
                                 </a>
                             </Grid>
-                            <Grid>swap
+                            <Grid>
                                 <a className="nav-link" href="https://observbsc.com/">
                                     Swap
                                 </a>
