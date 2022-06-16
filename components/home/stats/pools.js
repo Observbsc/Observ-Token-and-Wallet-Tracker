@@ -49,7 +49,7 @@ export default function PoolsCard({ pairId, stats, isLoading }) {
                 </Grid.Container>
             </Card.Body>
             <Card.Footer css={{ pt: 0 }}>
-                {stats.holders.toLocaleString()} Wallets have transferred $Observ <b> Not Current Number Holders</b>
+                {stats.holders.toLocaleString()} Unique wallets have transferred $Observ <b> Not Current Number Holders</b>
             </Card.Footer>
         </Card>
 
