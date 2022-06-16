@@ -49,7 +49,7 @@ export default function PoolsCard({ pairId, stats, isLoading }) {
                 </Grid.Container>
             </Card.Body>
             <Card.Footer css={{ pt: 0 }}>
-                {stats.holders.toLocaleString()} Holders
+                {stats.holders.toLocaleString()} Wallets have held Observ
             </Card.Footer>
         </Card>
 
